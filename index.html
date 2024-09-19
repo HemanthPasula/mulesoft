@@ -3,145 +3,223 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hemanth Pasula | Portfolio</title>
+    <meta name="description" content="Hemanth Pasula - Software Engineer Portfolio">
+    <meta name="keywords" content="Hemanth Pasula, MuleSoft, Software Engineer, Java, Spring Boot">
+    <meta name="author" content="Hemanth Pasula">
+    <title>Hemanth Pasula - Mulesoft Developer</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
-            color: #333;
         }
-
         header {
             background-color: #333;
-            color: #fff;
+            color: white;
             padding: 20px;
             text-align: center;
         }
-
         header h1 {
             margin: 0;
+            font-size: 2.5em;
         }
-
-        section {
-            padding: 20px;
-            margin: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-
-        h2 {
-            color: #333;
-            border-bottom: 2px solid #f4f4f4;
-            padding-bottom: 10px;
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        ul li {
-            padding: 8px 0;
-        }
-
-        footer {
-            text-align: center;
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
             padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+        section {
+            padding: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            margin-bottom: 20px;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .skills {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .skill {
+            background-color: #eee;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            width: 45%;
+            margin: 10px;
+        }
+        footer {
             background-color: #333;
             color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .project {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px;
+        }
+        .project-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .contact {
+            text-align: center;
+        }
+        .contact a {
+            text-decoration: none;
+            color: #444;
+            font-size: 1.2em;
+            display: block;
+            margin: 10px 0;
+        }
+        .references {
+            background-color: #f1f1f1;
+            padding: 20px;
+            border-left: 5px solid #444;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Hemanth Pasula</h1>
-        <p><a href="https://hemanthpasula.github.io/website/" target="_blank">https://hemanthpasula.github.io/website/</a></p>
-        <p>Email: <a href="mailto:hemanthreddy996669@gmail.com">hemanthreddy996669@gmail.com</a></p>
-        <p>Phone: 6232767734</p>
-    </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am currently pursuing my Master’s in Computer Science at Arizona State University with a passion for integration solutions using MuleSoft and related technologies. With a strong background in software engineering, I’ve worked extensively on creating scalable microservices, APIs, and cloud solutions. I’m continuously learning and growing in areas like data processing, integration architecture, and system performance improvements.</p>
-    </section>
+<header>
+    <h1>Hemanth Pasula - Mulesoft Developer</h1>
+</header>
 
-    <section id="education">
-        <h2>Education</h2>
-        <p><strong>Arizona State University, Arizona</strong><br>
-        Master of Science - Computer Science (Aug 2022 - May 2024)<br>CGPA: 4.0/4.0</p>
-        <p><strong>Relevant Coursework:</strong> Data Visualization, Data Mining, Data Processing at Scale, Semantic Web Mining, Database Management System Implementation, Foundations of Machine Learning, etc.</p>
-    </section>
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-    <section id="skills">
-        <h2>Technical Skills</h2>
-        <ul>
-            <li><strong>Programming Languages:</strong> Java, Python, HTML, CSS</li>
-            <li><strong>Databases:</strong> MySQL, NoSQL, Oracle</li>
-            <li><strong>Cloud & Big Data:</strong> AWS, CloudHub</li>
-            <li><strong>Developer Tools:</strong> Git, Docker, GitHub, Jenkins</li>
-            <li><strong>Frameworks & Technologies:</strong> MuleSoft ESB, JBoss Fuse, IBM WebSphere, Oracle Fusion, Spring Boot, Anypoint Studio, React</li>
-            <li><strong>Integration & APIs:</strong> RESTful APIs, SOAP, API Management</li>
-        </ul>
-    </section>
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I am Hemanth Pasula, a software engineer specializing in MuleSoft, Java, and Spring Boot. With a Master's degree in Computer Science from Arizona State University and a 4.0/4.0 CGPA, I have strong experience in developing scalable and secure integration solutions. My focus is on building robust microservices architectures and API integrations using cutting-edge technologies.</p>
+</section>
 
-    <section id="experience">
-        <h2>Experience</h2>
-        <h3>Graduate Assistant Teaching - Arizona State University</h3>
-        <p>August 2023 - March 2024</p>
-        <ul>
-            <li>Facilitated instruction for Mobile Computing and Computer Literacy for 178 students.</li>
-            <li>Developed automated tests for assignment evaluation and supported students in MuleSoft integration solutions.</li>
-        </ul>
+<section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="skills">
+        <div class="skill">
+            <h3>Programming Languages</h3>
+            <p>Java, Python, HTML, CSS</p>
+        </div>
+        <div class="skill">
+            <h3>Databases</h3>
+            <p>MySQL, NoSQL, Oracle</p>
+        </div>
+        <div class="skill">
+            <h3>Cloud & Big Data</h3>
+            <p>AWS, CloudHub</p>
+        </div>
+        <div class="skill">
+            <h3>Developer Tools</h3>
+            <p>Git, Docker, Jenkins, GitHub</p>
+        </div>
+        <div class="skill">
+            <h3>Integration & APIs</h3>
+            <p>MuleSoft ESB, RESTful APIs, SOAP, API Management</p>
+        </div>
+    </div>
+</section>
 
-        <h3>Senior Software Development Engineer - Capgemini, India</h3>
-        <p>November 2021 - August 2022</p>
-        <ul>
-            <li>Led architectural discussions and designed MuleSoft integration solutions.</li>
-            <li>Developed microservices using MuleSoft and Spring Boot, enhancing scalability and maintainability.</li>
-        </ul>
+<section id="experience">
+    <h2>Experience</h2>
+    <div class="project">
+        <div class="project-title">Graduate Assistant Teaching - Arizona State University</div>
+        <p>(August 2023 – March 2024)</p>
+        <p>• Facilitated instruction in Mobile Computing and Computer Literacy for 178 students. Developed automated tests for assignment evaluation and supported students in building integration solutions using MuleSoft.</p>
+    </div>
 
-        <h3>Software Development Engineer - Capgemini, India</h3>
-        <p>November 2020 - October 2021</p>
-        <ul>
-            <li>Built scalable RESTful APIs and integration solutions using MuleSoft, JBoss Fuse, and Oracle Fusion.</li>
-            <li>Reduced deployment errors by 40% with MUnit framework and streamlined CI/CD pipeline.</li>
-        </ul>
-    </section>
+    <div class="project">
+        <div class="project-title">Senior Software Development Engineer - Capgemini, India</div>
+        <p>(November 2021 – August 2022)</p>
+        <p> Led architectural discussions and designed MuleSoft integration solutions, ensuring client needs were met efficiently. Developed microservices using Spring Boot and MuleSoft, integrating them with SQL databases.</p>
+        <p>Developed microservices using Spring Boot and MuleSoft ESB, enhancing system scalability and maintainability.</p>
+		<p>Integrated MuleSoft-based microservices with SQL databases, optimizing data retrieval processes and ensuring data
+integrity.</p>
+		<p>Worked with competing vendors such as JBoss Fuse, IBM WebSphere, and Oracle Fusion to provide comparisons and
+technology differentiation based on client requirements.</p>
+		<p>Led Agile ceremonies, conducted code reviews, and ensured timely delivery of high-quality solutions.</p>
+    </div>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <h3>Client Customization Using MuleSoft</h3>
-        <p>June 2021 - August 2021</p>
-        <ul>
-            <li>Designed scalable MuleSoft APIs, reducing data retrieval time by 25%.</li>
-            <li>Incorporated comparisons with JBoss Fuse and Oracle Fusion for enhanced integration.</li>
-        </ul>
+    <div class="project">
+        <div class="project-title">Software Development Engineer - Capgemini, India</div>
+        <p>(November 2020 – October 2021)</p>
+        <p> Built scalable RESTful APIs and integration solutions with MuleSoft ESB, JBoss Fuse, and Oracle Fusion. Implemented MUnit framework, reducing deployment errors by 40% through improved CI/CD processes.</p>
+        <p>Built scalable RESTful APIs and integration solutions using MuleSoft ESB, JBoss Fuse, and Oracle Fusion, improving
+system efficiency and comparing the performance of each platform.</p>
+		<p>Implemented MUnit framework, reducing deployment errors by 40% through a streamlined CI/CD pipeline.</p>
+		<p> Enhanced application security by securing SOAP-based APIs and enforcing LDAP Security Manager policies.</p>
+		<p>Delivered operational support for MuleSoft and other integration platform solutions, maintaining a low SLA rate for
+ticket management.</p>
+    </div>
+    <div class="project">
+        <div class="project-title">Intern - Capgemini, India</div>
+        <p>(January 2020 – October 2021)</p>
+        <p> Contributed to the development of microservices using MuleSoft, JBoss Fuse, Spring Boot, and REST APIs.</p>
+        		    </div>
+</section>
 
-        <h3>Inventory Management System</h3>
-        <p>January 2019 - April 2019</p>
-        <ul>
-            <li>Developed RESTful APIs and microservices using MuleSoft, increasing efficiency by 30%.</li>
-            <li>Conducted performance analysis, achieving a 20% improvement in response times using MuleSoft.</li>
-        </ul>
-    </section>
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+        <div class="project-title">Client Customization Using MuleSoft</div>
+        <p>(June 2021 – August 2021)</p>
+        <p>• Designed and developed scalable MuleSoft APIs, improving data retrieval times by 25%. Analyzed client systems and ensured the integration aligned with their business needs.</p>
+    </div>
 
-    <section id="certifications">
-        <h2>Certifications</h2>
-        <ul>
-            <li>MuleSoft Certified Developer Level 1 – Salesforce</li>
-            <li>Cloud Computing Certificate – NPTEL</li>
-        </ul>
-    </section>
+    <div class="project">
+        <div class="project-title">Inventory Management System</div>
+        <p>(January 2019 – April 2019)</p>
+        <p>• Designed scalable microservices using MuleSoft and Spring Boot, streamlining inventory processes by 30%. Conducted performance analysis, improving response times by 20% through IBM WebSphere comparisons.</p>
+    </div>
+</section>
 
-    <footer>
-        <p>Connect with me: 
-            <a href="https://github.com/hemanthpasula" target="_blank">GitHub</a> |
-            <a href="https://www.linkedin.com/in/hemanthpasula/" target="_blank">LinkedIn</a>
-        </p>
-    </footer>
+<section id="references">
+    <h2>MuleSoft References</h2>
+    <div class="references">
+        <p>• <a href="https://developer.mulesoft.com">MuleSoft Developer Portal</a> - Your go-to source for MuleSoft documentation, guides, and best practices for building efficient integration solutions.</p>
+        <p>• <a href="https://training.mulesoft.com">MuleSoft Training</a> - Access official training materials and courses to enhance your skills and become MuleSoft certified.</p>
+        <p>• <a href="https://www.mulesoft.com/integration-platform">MuleSoft Integration Platform</a> - Learn more about MuleSoft's integration solutions and how they can transform your business operations.</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="contact">
+        <a href="mailto:hemanthreddy996669@gmail.com">Email: hemanthreddy996669@gmail.com</a>
+        <a href="tel:+16232767734">Phone: 6232767734</a>
+        <a href="https://github.com/hemanthpasula" target="_blank">GitHub: Hemanth Pasula</a>
+    </div>
+</section>
+
+<footer>
+    &copy; 2024 Hemanth Pasula - All Rights Reserved
+</footer>
+
 </body>
 </html>
